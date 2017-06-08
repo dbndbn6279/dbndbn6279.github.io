@@ -23,11 +23,13 @@ h1 {
 
 body {
     display: block;
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 1024px;
-	background-color: lightgray;
+    background-color: #f7f7f5
+;
 }
+
 
 div.download {
 	font-family: TextRoundCN, TextRound;
@@ -39,6 +41,9 @@ div.download {
 #downloadIcon {
 	width: 120px;
 	height: 118px;
+	background-color: #FFFFFF;
+	padding: 5px;
+	margin: 15px;
 }
 
 div.usage {
@@ -72,4 +77,12 @@ img.screenshots {
 	height: 270px;
 	padding: 15px;
 	align-content: center;
+}
+
+div.foot {
+	font-family: TextRound;
+	text-align: center;
+	font-size: 0.7em;
+	margin-top: 40px;
+	margin-bottom: 80px;
 }
