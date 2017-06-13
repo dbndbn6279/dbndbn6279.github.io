@@ -1,0 +1,96 @@
+/*Font Faces*/
+@font-face {
+	font-family: TitlePixel;
+	src: url("./fonts/Ka.ttf") format('truetype')
+}
+
+@font-face {
+	font-family: TextRound;
+	src: url("./fonts/TextRound.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: TextRoundCN;
+	src: url("./fonts/TextRoundCN.ttf") format('truetype')
+}
+
+h1 {
+	font-family: TitlePixel;
+	color: darkslategray;
+	font-size: 5.5em;
+	text-align: center;
+}
+
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    background-color: #f7f7f5
+;
+}
+
+
+div.download {
+	font-family: TextRoundCN, TextRound;
+	font-size: 20px;
+	color: #485c7b;
+	text-align: center;
+}
+
+#downloadIcon {
+	width: 120px;
+	height: 118px;
+	background-color: #FFFFFF;
+	padding: 5px;
+	margin: 15px;
+}
+
+div.description {
+    overflow: hidden;
+    display: flex;
+    margin: auto;
+}
+
+div.usage {
+	overflow: hidden;
+	display: flex;
+    width: 520px;
+}
+#intro {
+	line-height: 24px;
+	width: 400px;
+	overflow: hidden;
+	display: flex;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	
+}
+
+#EN {
+	font-family: TextRound;
+	color: darkslategray;
+	width: 520px;
+	padding-right: 30px;
+	padding-left: 15px;
+}
+
+div.gallery {
+    width: 520px;
+    margin: auto;
+}
+
+img.screenshots {
+	width: 480px;
+	height: 270px;
+	padding: 15px;
+	align-content: center;
+}
+
+div.foot {
+	font-family: TextRound;
+	text-align: center;
+	font-size: 0.7em;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
