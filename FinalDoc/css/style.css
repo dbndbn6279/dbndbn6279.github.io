@@ -1,0 +1,96 @@
+body {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    width: 1024px;
+	background-color: #E9EAE2;
+}
+
+/*Title*/
+#whole_page {
+	background-color: #2E1D43;
+}
+
+#header img {
+	width: 100%;
+	object-fit: contain;
+}
+
+
+/*Navigation Bar*/
+@font-face {
+	font-family: my_title_font;
+	src: url("../fonts/neuropolitical rg.ttf") format('truetype');
+}
+
+#top_navigation {
+	background-color: #2E1D43;
+	text-align: center;
+}
+
+#top_navigation li {
+    display: inline-block;
+    padding: 1px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#top_navigation a {
+	font-family: 'my_title_font';
+	color: aliceblue;
+	text-decoration: none;
+}
+
+#top_navigation a:hover {
+	color: #d6cfb3;
+}
+
+/*Display Contents*/
+#gallery_container{
+	background-color: #545156;
+	height: 560;
+	overflow: hidden;
+	display: flex;
+	text-align: center;
+}
+
+div.gallery {
+	width: 300px;
+	height: 530px;
+	margin: auto;
+	padding: 6;
+	display: block;
+	position: relative;
+	
+}
+
+div.gallery h3 {
+	font-family: 'my_title_font';
+	color: #d6cfb3;
+}
+
+img.gallery_img {
+    width: 300;
+    height: 170px;
+	position: absolute;
+	left: 6;
+	bottom: 20;
+	
+}
+
+/*Text*/
+@font-face {
+	font-family: 'my_text_font';
+	src: url("../fonts/VanillaExtractRegular.ttf");
+}
+
+p {
+	font-family: 'my_text_font';
+	color: aliceblue;
+	font-size: 16;
+	line-height: 1.5;
+}
+
+
+
+
